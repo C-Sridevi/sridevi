@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:p="http://www.springframework.org/schema/p"
+xsi:schemaLocation="http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+<bean id="Address1" class="com.constructor.Address1">
+
+<constructor-arg value="16" type="int"/>
+<constructor-arg value="Moosarambagh" type="String" />
+<constructor-arg value="TS" type="String" />
+<constructor-arg value="500036" type="int" />
+<constructor-arg value="india" type="String"/>
+</bean>
+<bean id="Customer1 " class="com.constructor.Customer1">
+<constructor-arg value="555" type="int"/>
+<constructor-arg value="8096790163" type="long"/>
+<constructor-arg value="sridevi" type="String"/>
+<constructor-arg value="Hyderabad" type="String"/>
+</bean>
+
+</beans>
+
